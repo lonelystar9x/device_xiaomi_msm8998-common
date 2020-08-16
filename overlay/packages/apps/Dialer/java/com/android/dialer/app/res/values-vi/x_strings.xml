@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2016 The Nitrogen OS
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+          http://www.apache.org/licenses/LICENSE-2.0
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+    <string name="other_settings_label">Cài đặt khác</string>
+
+    <!-- Dialer postcall -->
+    <string name="enable_post_call_title">Hiện cuộc gọi lên snackbar</string>
+    <string name="enable_post_call_summary">Cho phép hiện thông báo cuộc gọi ở dưới màn hình</string>
+
+    <!-- InCall DND -->
+    <string name="incall_enable_dnd_title">Kích hoạt Không làm phiền trong khi gọi</string>
+    <string name="incall_dnd_dialog_message">Để bật Không làm phiền, ứng dụng Điện thoại cần được cấp quyền để kiểm soát trạng thái Không làm phiền.\nVui lòng cho phép.</string>
+    <string name="allow">Cho phép</string>
+    <string name="deny">Từ chối</string>
+
+    <!-- Call Recording -->
+    <string name="call_recording_category_title">Ghi âm cuộc gọi</string>
+    <string name="call_recording_format">Định dạng âm thanh</string>
+    <string name="auto_call_recording_title">Ghi âm tự động</string>
+
+    <string name="call_via">Gọi qua</string>
+    <string name="call_via_dialog_title">Gọi qua\u2026</string>
+    <string name="call_log_stats_title">Thống kê</string>
+
+    <string name="fullscreen_caller_photo_title">Ảnh toàn màn hình</string>
+    <string name="fullscreen_caller_photo_summary">Hiển thị ảnh toàn màn hình trong các cuộc gọi đến và đi</string>
+    <string name="fullscreen_caller_photo_message">Để sử dụng, bạn phải khởi động lại ứng dụng</string>
+
+    <string name="disable_proximity_sensor_title">Vô hiệu hóa cảm biến tiệm cận</string>
+    <string name="disable_proximity_sensor_summary">Không tắt màn hình cảm ứng và hiển thị trong cuộc gọi dựa trên cảm biến tiệm cận</string>
+    <string name="sensor_settings_titile">Cảm biến</string>
+
+    <!-- Proximity speaker -->
+    <string name="speaker_settings_label">Loa ngoài</string>
+    <string name="prox_auto_speaker_title">Loa ngoài tự động</string>
+    <string name="prox_auto_speaker_summary">Tự động bật loa ngoài khi điện thoại của bạn được lấy ra khỏi tai</string>
+    <string name="prox_auto_speaker_delay_title">Độ trễ loa</string>
+    <string name="prox_auto_speaker_delay_dialog_title">Mở loa ngoài sau (ms)</string>
+    <string name="prox_auto_speaker_delay_summary">Loa ngoài sẽ mở sau <xliff:g id="number">%d</xliff:g> ms</string>
+    <string name="prox_auto_speaker_incall_only_title">Chỉ trong khi gọi</string>
+    <string name="prox_auto_speaker_incall_only_summary_on">Trong các cuộc gọi đi, người nghe sẽ chỉ hoạt động sau khi bên nhận được câu trả lời</string>
+    <string name="prox_auto_speaker_incall_only_summary_off">Trình nghe sẽ được kích hoạt trong tất cả các trạng thái cuộc gọi tắt (mặc định)</string>
+
+    <string name="prox_auto_answer_incall_only_title">Trả lời tự động</string>
+    <string name="prox_auto_answer_incall_only_summary">Sử dụng cảm biến tiệm cận để tự động trả lời</string>
+
+    <!-- Smart Options -->
+    <string name="smart_category_title">Cử chỉ</string>
+    <string name="smart_mute_title">Tắt tiếng thông minh</string>
+    <string name="smart_mute_summary">Tắt tiếng cuộc gọi đến bằng cách lật thiết bị</string>
+
+</resources>

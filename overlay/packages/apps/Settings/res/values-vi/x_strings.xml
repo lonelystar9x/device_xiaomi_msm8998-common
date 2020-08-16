@@ -1,0 +1,427 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+/*
+*
+* Licensed under the Apache License, Version 2.0 (the "License");
+* you may not use this file except in compliance with the License.
+* You may obtain a copy of the License at
+*
+*      http://www.apache.org/licenses/LICENSE-2.0
+*
+* Unless required by applicable law or agreed to in writing, software
+* distributed under the License is distributed on an "AS IS" BASIS,
+* WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+* See the License for the specific language governing permissions and
+* limitations under the License.
+*/
+-->
+
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+    <!-- Xtensions -->
+    <string name="x_settings_title">Tùy biến</string>
+    <string name="x_settings_summary">Trung tâm tùy biến của chúng tôi</string>
+
+    <!-- Rom version -->
+    <string name="rom_version_title">Phiên bản Xtended</string>
+
+    <!-- Device Codename -->
+    <string name="about_device_name">Tên mã thiết bị</string>
+
+    <!-- Xtended maintainer -->
+    <string name="maintainer">Người duy trì</string>
+
+    <!-- Dev Info -->
+    <string name="xtended_about_nfo">Về Xtended</string>
+    <string name="xtended_about_info_summary_title">Biết chúng tôi!</string>
+
+    <!-- SELinux status -->
+    <string name="selinux_status">Trạng thái SELinux</string>
+    <string name="selinux_status_disabled">Tắt</string>
+    <string name="selinux_status_permissive">Cho phép</string>
+    <string name="selinux_status_enforcing">Thi hành</string>
+
+    <!-- About phone, uptime. Deep sleep ratio since last reboot. -->
+    <string name="status_deep_sleep">(Ngủ sâu: %1$d%2$s)</string>
+
+    <!-- Sound: Title for the option defining the phone ringtone for slot1 on Muilti SIM device. [CHAR LIMIT=50] -->
+    <string name="ringtone1_title">Nhạc chuông - SIM 1</string>
+
+    <!-- Sound: Title for the option defining the phone ringtone for slot2 on Muilti SIM device. [CHAR LIMIT=50] -->
+    <string name="ringtone2_title">Nhạc chuông - SIM 2</string>
+
+    <string name="battery_temp">Nhiệt độ PIN</string>
+
+    <!-- Battery stats reset -->
+    <string name="battery_stats_reset">Đặt lại thống kê</string>
+    <string name="battery_stats_message">Số liệu thống kê lịch sử pin sẽ được thiết lập lại</string>
+
+    <!-- Screenshot shutter sound -->
+    <string name="screenshot_shutter_sound_title">Âm thanh chụp màn hình</string>
+
+    <!-- Quick unlock -->
+    <string name="unlock_quick_unlock_control_title">Mở khóa nhanh</string>
+    <string name="unlock_quick_unlock_control_summary">Tự động mở khóa khi nhập mã PIN / mật khẩu chính xác</string>
+
+    <!-- Density category -->
+    <string name="density_category">Tùy chọn mật độ</string>
+
+    <!-- Scramble pin -->
+    <string name="unlock_scramble_pin_layout_title">Bố trí mã PIN</string>
+    <string name="unlock_scramble_pin_layout_summary">Bố trí mã PIN khi mở khóa thiết bị</string>
+
+    <!-- Changelog -->
+    <string name="changelog_title">Thay đổi Xtended</string>
+    <string name="changelog_summary">Thay đổi được thực hiện kể từ một tuần</string>
+    <string name="changelog_error">Không thể tải changelog</string>
+
+    <!-- Lock screen pattern size -->
+    <string name="lock_settings_picker_pattern_size_message">Chọn kích thước mẫu</string>
+    <!-- Whether a visible red line will be drawn after the user has drawn the unlock pattern incorrectly -->
+    <string name="lockpattern_settings_enable_error_path_title">Hiển thị mẫu lỗi</string>
+    <!-- Whether the dots will be drawn when using the lockscreen pattern -->
+    <string name="lockpattern_settings_enable_dots_title">Hiển thị dấu chấm</string>
+
+    <!-- Custom light color -->
+    <string name="custom_light_title">Màu sáng</string>
+    <string name="custom_light_on_time_title">Thời gian sáng đèn led (ms)</string>
+    <string name="custom_light_off_time_title">Thời gian tắt đèn led (ms)"</string>
+    <string name="value_equals_default">M.định</string>
+    <string name="show_light_on_zen_title">Nhấp nháy trong chế độ không làm phiền</string>
+
+    <!-- Display : Rotation -->
+    <string name="display_rotation_title">Tự động xoay</string>
+    <string name="display_rotation_summary">Cấu hình tự động xoay màn hình</string>
+    <string name="display_rotation_disabled">Tắt</string>
+    <string name="display_rotation_unit">độ</string>
+    <string name="display_rotation_category_title">Chế độ xoay</string>
+    <string name="display_rotation_0_title">0 độ</string>
+    <string name="display_rotation_90_title">90 độ</string>
+    <string name="display_rotation_180_title">180 độ</string>
+    <string name="display_rotation_270_title">270 độ</string>
+
+    <!-- Volume link notification -->
+    <string name="volume_link_notification_title">Liên kết chuông &amp; âm lượng thông báo</string>
+
+    <!-- Increasing ring tone volume -->
+    <string name="increasing_ring_volume_option_title">Tăng âm lượng </string>
+    <string name="increasing_ring_min_volume_title">Mức bắt đầu</string>
+    <string name="increasing_ring_ramp_up_time_title">Thời gian tăng</string>
+
+    <!-- Volume Steps -->
+    <string name="volume_steps_title">Bước âm lượng</string>
+    <string name="volume_steps_summary">Số bước âm lượng</string>
+    <string name="volume_steps_alarm_title">Bước âm lượng: Báo thức</string>
+    <string name="volume_steps_dtmf_title">Bước âm lượng: DTMF</string>
+    <string name="volume_steps_music_title">Bước âm lượng: Nhạc</string>
+    <string name="volume_steps_notification_title">Bước âm lượng: Thông báo</string>
+    <string name="volume_steps_ring_title">Bước âm lượng: Chuông</string>
+    <string name="volume_steps_system_title">Bước âm lượng: Hệ thống</string>
+    <string name="volume_steps_voice_call_title">Bước âm lượng: Cuộc gọi thoại</string>
+    <string name="volume_steps_reset">Đặt lại</string>
+
+    <!-- Navigation settings -->
+    <string name="back_height_low_label">Đầy đủ</string>
+    <string name="back_height_high_label">Bên dưới</string>
+    <string name="back_options_dialog_title">Tùy chọn</string>
+    <string name="back_height_message">Số lượng chiều cao màn hình được sử dụng làm vùng có thể chạm cho cử chỉ quay lại.</string>
+
+    <!-- Smart charging -->
+    <string name="smart_charging_title">Sạc thông minh</string>
+    <string name="smart_charging_summary">Đặt mức sạc tối đa</string>
+    <string name="smart_charging_switch_title">Sử dụng sạc thông minh</string>
+    <string name="smart_charging_level_title">Mức dừng kích hoạt</string>
+    <string name="smart_charging_resume_level_title">Mức bắt đầu kích hoạt</string>
+    <string name="smart_charging_reset_stats_title">Đặt lại thống kê PIN</string>
+    <string name="smart_charging_reset_stats_summary">Đặt lại thống kê pin sau khi đạt mức sạc do người dùng xác định</string>
+    <string name="smart_charging_footer">Sạc thông minh cho phép bạn đặt mức sạc tối đa để kéo dài tuổi thọ của pin</string>
+
+    <!-- Per-app data restrictions -->
+    <string name="data_usage_app_restrict_data">Dữ liệu di động</string>
+    <string name="data_usage_app_restrict_data_summary">Cho phép sử dụng dữ liệu di động</string>
+    <string name="data_usage_app_restrict_vpn">Dữ liệu VPN</string>
+    <string name="data_usage_app_restrict_vpn_summary">Cho phép sử dụng dữ liệu VPN</string>
+    <string name="data_usage_app_restrict_wifi">Dữ liệu Wi\u2011Fi</string>
+    <string name="data_usage_app_restrict_wifi_summary">Cho phép sử dụng dữ liệu Wi\u2011Fi</string>
+
+    <!-- Media gestures -->
+    <string name="prevent_ringing_option_mute_no_media">Tắt tiếng, không có media</string>
+    <string name="prevent_ringing_option_mute_no_media_summary">Bật (Tắt tiếng, không có media)</string>
+
+    <!-- Android debugging as root -->
+    <string name="adb_enable_root">Gỡ lỗi root Android</string>
+    <string name="adb_enable_summary_root">Cho phép gỡ lỗi Android dưới quyền root</string>
+
+    <!-- Strings for suggestion card's close button [CHAR LIMIT=20] -->
+    <string name="suggestion_button_close">Đóng</string>
+
+    <!-- Whether the keyguard will directly show the lock entry -->
+    <string name="directly_show_lock">Mở khóa trực tiếp</string>
+    <string name="directly_show_lock_summary">Bỏ qua thao tác vuốt để mở khóa màn hình và ngay lập tức bắt đầu nhập khóa</string>
+
+    <!-- Dismiss notifications with back FP swipe -->
+    <string name="fp_swipe_to_dismiss_notifications_title">Vuốt dấu vân tay sang trái hoặc phải để loại bỏ thông báo</string>
+    <string name="fp_swipe_to_dismiss_notifications_summary">Để loại bỏ thông báo của bạn, hãy vuốt sang trái hoặc phải trên cảm biến vân tay ở mặt sau của điện thoại.</string>
+
+    <string name="ambient_wake_gestures_title">Cử chỉ đánh thức Ambient</string>
+    <string name="ambient_wake_gestures_summary">Hiển thị màn hình Ambient thay vì màn hình khóa thông thường trên cử chỉ đánh thức</string>
+
+    <!-- Android debugging over WiFi -->
+    <string name="adb_over_network">ADB qua mạng</string>
+    <string name="adb_over_network_summary">Cho phép gỡ lỗi TCP/IP qua các giao diện mạng (mạng Wi-Fi, USB). Cài đặt này được đặt lại khi khởi động lại</string>
+    <!-- Warning for Adb over Network -->
+    <string name="adb_over_network_warning">CẢNH BÁO: Khi ADB qua mạng được bật, điện thoại của bạn sẽ mở để xâm nhập vào tất cả các mạng được kết nối, bao gồm cả mạng dữ liệu GSM!\n\nChỉ sử dụng tính năng này khi bạn được kết nối trên các mạng đáng tin cậy.\n\nBạn có thực sự muốn kích hoạt chức năng này không?</string>
+    <string name="adb_over_network_warning_title">Cho phép ADB qua mạng?</string>
+
+    <string name="themeroom_title">Chủ đề ROM</string>
+    <string name="themeroom_summary">Chủ đề-màu-độ mờ</string>
+    <string name="accent_color">Màu nhấn</string>
+    <string name="accent_summary">Dựa trên màu hệ thống</string>
+    <string name="gradient_color">Độ mờ</string>
+    <string name="gradient_summary">Tạo hiệu ứng mờ</string>
+
+    <!-- Notification Vibration -->
+    <string name="vibrate_on_notifications_title">Rung thông báo</string>
+    <string name="vibrate_on_notifications_summary">Rung khi thông báo</string>
+
+    <!-- Themes -->
+    <string name="theme_type_title">Chủ đề hệ thống</string>
+    <string name="theme_type_summary">Chọn chủ đề</string>
+    <string name="theme_type_light">Sáng</string>
+    <string name="theme_type_pitch_black">Tối Google</string>
+    <string name="theme_type_solarized_dark">Tối mặt trời</string>
+    <string name="theme_type_baked_green">Đen xanh</string>
+    <string name="theme_type_choco_x">Sô cô la</string>
+    <string name="theme_type_du_pitchblack">Bóng đen</string>
+    <string name="theme_type_dark_grey">Xám đen</string>
+    <string name="theme_type_material_ocean">Tối đại dương</string>
+    <string name="theme_type_xtended_clear">Trong suốt</string>
+
+    <!-- Running services -->
+    <string name="background_processes_settings_title">Quá trình nền</string>
+
+    <!-- NavigationBar Gestural Mode Tweaks -->
+    <string name="navbar_gesture_mode_category_title">Điều chỉnh chế độ cử chỉ</string>
+    <string name="navbar_gesture_pill_toggle_title">Cử chỉ toàn màn hình</string>
+    <string name="navbar_gesture_pill_toggle_summary">Điều này sẽ ẩn cả thanh điều hướng và viên thuốc cho trải nghiệm cử chỉ toàn màn hình liền mạch.</string>
+    <string name="navbar_gesture_pill_toggle_summary_disabled">Tùy chọn này chỉ có sẵn để điều hướng cử chỉ!</string>
+
+    <!-- Control Vibration intensities -->
+    <string name="vibration_preferences">Rung &amp; phản hồi</string>
+    <string name="summary_vibration_preferences">Thay đổi cường độ, mô hình và nhiều hơn nữa</string>
+    <string name="keywords_vibration_preferences">mô hình rung, cường độ rung, khi gọi, phản hồi, chạm</string>
+    <string name="ringtone_vibration_pattern">Mô hình rung chuông</string>
+    <string name="vibration_intensity_ringer">Cường độ rung chuông</string>
+    <string name="vibration_intensity_notification">Cường độ rung thông báo</string>
+    <string name="vibration_intensity_disabled">Tắt</string>
+    <string name="vibration_intensity_light">Nhẹ</string>
+    <string name="vibration_intensity_medium">Trung bình</string>
+    <string name="vibration_intensity_strong">Mạnh</string>
+    <string name="vibration_intensity_custom">Tùy chọn</string>
+
+    <!-- Back gesture animation -->
+    <string name="back_gesture_arrow_message">Hiển thị một mũi tên hoạt hình cho cử chỉ trở lại.</string>
+
+    <!-- Notch: Full screen apps -->
+    <string name="display_cutout_force_fullscreen_title">Ứng dụng toàn màn hình</string>
+    <string name="display_cutout_force_fullscreen_summary">Buộc các ứng dụng bỏ qua không gian notch</string>
+
+    <!-- About phone screen, Xtended version -->
+    <string name="xtended_version">Phiên bản Xtended</string>
+    <string name="xtended_version_default">Không rõ</string>
+    <string name="keywords_xtended_version">Phiên bản Xtended</string>
+
+    <!-- About phone screen, build date -->
+    <string name="build_date">Ngày tạo</string>
+    <string name="build_date_default">2015-01-01-0000</string>
+    <string name="keywords_build_date">Ngày tạo, thông tin</string>
+
+    <!-- About Firmware information -->
+    <string name="xtended_firmware_version">"Thông tin Firmware"</string>
+
+    <!-- Improvements to Night Light -->
+    <string name="unknown_night_light_time">Không biết - nhấn để cập nhật</string>
+    <string name="night_display_location_text">\n\nLịch trình từ hoàng hôn đến bình minh yêu cầu các dịch vụ định vị được kích hoạt để có được thời gian chính xác cho vị trí của bạn.</string>
+
+    <!-- Hardware info -->
+    <!-- Label for device's hardware platform value [CHAR LIMIT=40] -->
+    <string name="platform_revision">Nền tảng</string>
+    <!-- Label for device's hardware ram size [CHAR LIMIT=40] -->
+    <string name="total_ram">Tổng RAM</string>
+
+    <!-- Theme Reset Option -->
+    <string name="theme_option_reset_title">Đặt lại tùy chọn chủ đề</string>
+    <string name="theme_option_reset_message">Bạn có chắc chắn muốn đặt lại chủ đề về mặc định?</string>
+
+    <!-- Custom actions -->
+    <string name="action_nothing">Không có hành động</string>
+    <string name="action_app_switch">Gần đây</string>
+    <string name="action_search">Trợ lý</string>
+    <string name="action_voice_search">Tìm kiếm bằng giọng nói</string>
+    <string name="action_launch_camera">Máy ảnh</string>
+    <string name="action_last_app">Ư.dụng cuối</string>
+    <string name="action_splitscreen">Chia màn hình</string>
+    <string name="action_flashlight">Đèn pin</string>
+    <string name="action_clear_notifications">Xóa thông báo</string>
+    <string name="action_volume_panel">Bảng âm lượng</string>
+    <string name="action_screen_off">Tắt màn hình</string>
+    <string name="action_notifications">Thông báo</string>
+    <string name="action_power_menu">Menu nguồn</string>
+    <string name="action_screenshot">Chụp màn hình</string>
+    <string name="action_qs_panel">Bảng QS</string>
+    <string name="action_app_action">Ứng dụng</string>
+    <string name="action_ringer_modes">Chế độ chuông</string>
+    <string name="kill_app">Tắt ứng dụng nền</string>
+
+    <!-- Long swipe gestures -->
+    <string name="navbar_gesture_tweaks_pref_title">Cử chỉ nâng cao</string>
+    <string name="navbar_gesture_tweaks_pref_summary">Tùy chỉnh cử chỉ và thiết lập hành động tùy chỉnh</string>
+    <string name="navbar_gesture_tweaks_cat_title">Nâng cao</string>
+    <string name="swipe_app_select_summary">Chọn một ứng dụng để khởi chạy với hành động vuốt</string>
+    <string name="long_back_swipe_timeout_title">Thòi gian vuốt giữ</string>
+    <string name="left_swipe_actions_title">Vuốt giữ bên trái</string>
+    <string name="left_swipe_app_action_title">Chọn ứng dụng</string>
+    <string name="right_swipe_actions_title">VUốt giữ bên phải</string>
+    <string name="right_swipe_app_action_title">Chọn ứng dụng</string>
+    <string name="gesture_nav_tweaks_footer_info">Để chọn một hoạt động ứng dụng cụ thể cho hành động, nhấn và giữ bất kỳ ứng dụng nào trong trình chọn ứng dụng.\n\nNếu trình khởi chạy đang hiển thị, hãy thực hiện thao tác vuốt ở khu vực dưới cùng của màn hình để kích hoạt hành động.</string>
+    <string name="back_swipe_extended_title">Hành động vuốt mở rộng</string>
+    <string name="back_swipe_extended_summary">Hành động kích hoạt nếu thao tác vuốt rộng hơn 3\/4 kích thước màn hình</string>
+
+    <!-- Gesture navbar handle -->
+    <string name="gesture_navbar_handle_title">Kích thước thanh cử chỉ</string>
+    <string name="gesture_navbar_handle_default">Mặc định</string>
+    <string name="gesture_navbar_handle_middle">Ở giữa</string>
+    <string name="gesture_navbar_handle_large">Lớn</string>
+
+    <!-- Notification log -->
+    <string name="notification_log_summary">Hiển thị nhật ký lịch sử thông báo</string>
+
+    <!-- Fingerprint sensor locations -->
+    <string name="security_settings_fingerprint_sensor_location_back">Sau</string>
+    <string name="security_settings_fingerprint_sensor_location_front">trước</string>
+    <string name="security_settings_fingerprint_sensor_location_left">bên trái</string>
+    <string name="security_settings_fingerprint_sensor_location_right">bên phải</string>
+
+    <!-- Format string for fingerprint location message -->
+    <string name="security_settings_fingerprint_enroll_find_sensor_message_cm" product="tablet">Xác định vị trí cảm biến vân tay trên <xliff:g id="sensor_location">%1$s</xliff:g> của máy tính bảng.</string>
+    <string name="security_settings_fingerprint_enroll_find_sensor_message_cm" product="device">Xác định vị trí cảm biến vân tay trên <xliff:g id="sensor_location">%1$s</xliff:g> của thiết bị.</string>
+    <string name="security_settings_fingerprint_enroll_find_sensor_message_cm" product="default">Xác định vị trí cảm biến vân tay trên <xliff:g id="sensor_location">%1$s</xliff:g> của điện thoại.</string>
+
+    <!-- Xtended Updater -->
+    <string name="update_settings_title">Cập nhật Xtended</string>
+    <string name="update_settings_summary">Kiểm tra phiên bản mới nhất của rom</string>
+
+    <!-- Adaptive Playback -->
+    <string name="adaptive_playback_screen_title">Phát lại thích ứng</string>
+    <string name="adaptive_playback_timeout_title">Sử dụng thời gian chờ</string>
+    <string name="adaptive_playback_timeout_none_summary">Tắt</string>
+    <string name="adaptive_playback_timeout_30_secs">30 giây</string>
+    <string name="adaptive_playback_timeout_30_secs_summary">Mở (30 giây)</string>
+    <string name="adaptive_playback_timeout_1_min">1 phút</string>
+    <string name="adaptive_playback_timeout_1_min_summary">Mở (1 phút)</string>
+    <string name="adaptive_playback_timeout_2_min">2 phút</string>
+    <string name="adaptive_playback_timeout_2_min_summary">Mở (2 phút)</string>
+    <string name="adaptive_playback_timeout_5_min">5 phút</string>
+    <string name="adaptive_playback_timeout_5_min_summary">Mở (5 phút)</string>
+    <string name="adaptive_playback_timeout_10_min">10 phút</string>
+    <string name="adaptive_playback_timeout_10_min_summary">Mở (10 phút)</string>
+
+    <!-- Ultra Power -->
+    <string name="ultra_power_save_title">Siêu tiết kiệm Pin</string>
+    <string name="ultra_power_save_summary">Khi màn hình tắt, thiết bị sẽ chuyển sang chế độ siêu tiết kiệm Pin</string>
+
+    <!-- Refresh rate -->
+    <string name="refresh_rate_title">Tốc độ làm tươi màn hình</string>
+    <string name="refresh_rate_summary_auto">Tự động/Tự động tăng tốc độ làm mới từ 60 đến 90Hz cho một số nội dung</string>
+    <string name="refresh_rate_summary_60">60Hz/Tốc độ làm mới bị khóa ở 60Hz cho tất cả nội dung</string>
+    <string name="refresh_rate_summary_max">90Hz/120hz Tốc độ làm mới bị khóa ở 90Hz/120hz cho tất cả nội dung. Sử dụng pin tăng</string>
+    <string name="auto_refresh_rate">Tự động</string>
+
+    <!-- Battery health -->
+    <string name="battery_health_title">Sức khỏe Pin</string>
+    <string name="battery_health_summary">Theo dõi tình trạng pin của thiết bị</string>
+    <string name="current_battery_capacity">Dung lượng pin hiện tại</string>
+    <string name="current_battery_capacity_summary">Dung lượng pin hiện tại được đo bằng hạt nhân</string>
+    <string name="designed_battery_capacity">Dung lượng pin được thiết kế</string>
+    <string name="designed_battery_capacity_summary">Dung lượng pin được thiết kế bởi nhà sản xuất</string>
+    <string name="battery_charge_cycles">Hoàn thành chu kỳ sạc</string>
+    
+    <!-- Hotspot extras -->
+    <string name="tethering_allow_vpn_upstreams_title">Cho phép khách hàng sử dụng VPN</string>
+    <string name="tethering_allow_vpn_upstreams_summary">Cho phép máy khách điểm phát sóng sử dụng kết nối\u2019s VPN trên thiết bị này để kết nối ngược dòng</string>
+
+    <!-- QS header styles -->
+    <string name="qs_header_style_title">Kiểu tiêu đề QS</string>
+    <string name="qs_header_black">Đen</string>
+    <string name="qs_header_grey">Xám</string>
+    <string name="qs_header_lightgrey">Xám nhạt</string>
+    <string name="qs_header_accent">Màu nhấn</string>
+    <string name="qs_header_transparent">Trong suốt</string>
+    
+    <!-- Notification sound timeout -->
+    <string name="app_notification_sound_timeout_title">Thời gian tối thiểu giữa các âm thanh thông báo</string>
+    <string name="app_notification_sound_timeout_summary_template">Cho phép âm thanh hoặc rung không quá một lần mỗi <xliff:g id="duration">%1$s</xliff:g></string>
+    <string name="app_notification_sound_timeout_value_none">Không giới hạn</string>
+    <string name="app_notification_sound_timeout_value_10_seconds">10 giây</string>
+    <string name="app_notification_sound_timeout_value_30_seconds">30 giây</string>
+    <string name="app_notification_sound_timeout_value_1_minute">1 phút</string>
+    <string name="app_notification_sound_timeout_value_5_minutes">5 phút</string>
+    <string name="app_notification_sound_timeout_value_15_minutes">10 phút</string>
+    <string name="app_notification_sound_timeout_value_30_minutes">30 phút</string>
+
+    <!-- Switch styles -->
+    <string name="switch_style_title">Kiểu chuyển đổi</string>
+    <string name="switch_default">Mặc định</string>
+    <string name="switch_narrow">Hẹp</string>
+
+    <!-- Settings dashboard icon style -->
+    <string name="theming_settings_dashboard_icons_title">Cài đặt b.tượng tổng quan</string>
+    <string name="theming_settings_dashboard_icons_default2">Nền mặc định</string>
+    <string name="theming_settings_dashboard_icons_default_accent2">Nền màu nhấn</string>
+    <string name="theming_settings_dashboard_icons_bg_random">Nền ngẫu nhiên</string>
+    <string name="theming_settings_dashboard_icons_random">Biểu tượng ngẫu nhiên</string>
+    <string name="theming_settings_dashboard_icons_random_bg_accent">Nền màu nhấn và b.tượng ngẫu nhiên</string>
+    <string name="theming_settings_dashboard_icons_accent_bg_random">Nền và b.tượng ngẫu nhiên</string>
+
+    <!-- QS tile styles -->
+    <string name="qs_tile_style_title">Kiểu ô QS</string>
+    <string name="qstile_default">Mặc định</string>
+
+    <!-- Title for connected TWS device group [CHAR LIMIT=none]-->
+    <string name="connected_tws_device_saved_title">Lưu tai nghe</string>
+
+    <!-- Home handle sizing -->
+    <string name="home_handle_sizer_title">Chiều dài được sử dụng cho cử chỉ thanh điều hướng</string>
+    <string name="home_handle_low_label">Ẩn</string>
+    <string name="home_handle_high_label">Dài</string>
+
+    <!-- Qs Tile Icon Bright-Dark -->
+    <string name="qs_icon_primary_title">Biểu tượng ô Qs Sáng|Tối</string>
+    <string name="qs_icon_primary_summary">Đặt Biểu tượng Qs Sáng-Tối nếu bật màu gradient</string>
+
+    <!-- Swipe up for face unlock -->
+    <string name="security_settings_face_require_swipe">Vuốt lên để mở khóa</string>
+    <string name="security_settings_face_require_swipe_summary">Vuốt lên trên màn hình khóa để sử dụng tính năng mở khóa bằng khuôn mặt</string>
+
+    <!-- Lottie Animations -->
+    <string name="apps_category">Ứng dụng</string>
+    <string name="volume_key_category_title">Phím tắt âm lượng</string>
+    <string name="connected_devices_category_title">Các thiết bị đã được kết nối</string>
+
+    <!-- A2DP codec priority -->
+    <string name="a2dp_source_codec_priority_title">Bộ giải mã âm thanh Bluetooth (ưu tiên)</string>
+
+    <!-- SBC HD (Dual Channel) priority -->
+    <string name="sbc_hd_priority_title">Âm thanh SBC HD</string>
+    <string name="sbc_hd_priority_summary">Có sử dụng chế độ Kênh đôi cho codec SBC theo mặc định hay không</string>
+
+    <!-- Xtensions Styling -->
+    <string name="xtensions_style_title">Nền tùy biến</string>
+    <string name="xtensions_style_accent">Màu nhấn</string>
+    <string name="xtensions_style_gradient">Màu Gradient</string>
+    <string name="xtensions_style_random">Màu ngẫu nhiên</string>
+
+    <!-- GVM -->
+    <string name="theme_customization_statusbar_height_title">Chiều cao thanh t.thái</string>
+    <string name="theme_customization_ui_radius_title">Bán kính UI</string>
+</resources>

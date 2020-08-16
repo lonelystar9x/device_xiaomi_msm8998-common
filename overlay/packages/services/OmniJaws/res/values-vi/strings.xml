@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  Copyright (C) 2016 The OmniROM Project
+
+  This program is free software: you can redistribute it and/or modify
+  it under the terms of the GNU General Public License as published by
+  the Free Software Foundation, either version 2 of the License, or
+  (at your option) any later version.
+
+  This program is distributed in the hope that it will be useful,
+  but WITHOUT ANY WARRANTY; without even the implied warranty of
+  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.	See the
+  GNU General Public License for more details.
+
+  You should have received a copy of the GNU General Public License
+  along with this program.  If not, see <http://www.gnu.org/licenses/>.
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+    <string name="provider_title">Nhà cung cấp thời tiết</string>
+    <string name="units_title">Đơn vị</string>
+    <string name="weather_progress_title">Xác minh vị trí</string>
+    <string name="weather_select_location">Chọn địa điểm</string>
+    <string name="custom_location_title">Vị trí tùy chỉnh</string>
+    <string name="weather_custom_location_dialog_title">Nhập vị trí</string>
+    <string name="weather_custom_location_title">Vị trí</string>
+    <string name="weather_custom_location_missing">Đặt vị trí tùy chỉnh</string>
+    <string name="weather_retrieve_location_dialog_title">Không thể truy xuất vị trí!</string>
+    <string name="weather_retrieve_location_dialog_message">Vị trí địa lý mạng bị tắt.\n\nĐặt vị trí tùy chỉnh hoặc bật vị trí mạng</string>
+    <string name="weather_retrieve_location_dialog_enable_button">Kích hoạt</string>
+    <string name="settings_title">Cài đặt</string>
+    <string name="auto_update_title">Cập nhật tự động</string>
+    <string name="unit_metric">Độ C (\u00b0C)</string>
+    <string name="unit_imperial">Độ F (\u00b0F)</string>
+    <string name="update">Cập nhật</string>
+    <string name="enable_title">Kích hoạt</string>
+    <string name="update_interval_title">Thời gian cập nhật</string>
+    <string name="interval_1_hour">1 giờ</string>
+    <string name="interval_2_hour">2 giờ</string>
+    <string name="interval_4_hour">4 giờ</string>
+    <string name="interval_6_hour">6 giờ</string>
+    <string name="interval_12_hour">12 giờ</string>
+    <string name="weather_tile_title">Thời tiết</string>
+    <string name="weather_icon_pack_title">Gói biểu tượng điều kiện</string>
+    <string name="weather_icon_pack_playstore">Tìm gói biểu tượng</string>
+    <string name="service_disabled">Tắt</string>
+    <string name="service_error">Lỗi</string>
+    <string name="last_update_time">Cập nhật lần cuối</string>
+    <string name="omnijaws_service_unkown">Không có dữ liệu thời tiết</string>
+    <string name="omnijaws_service_error">Lỗi khi tải dữ liệu thời tiết</string>
+    <string name="omnijaws_service_init">Đang chờ...</string>
+    <string name="omnijaws_service_progress">Đang cập nhật...</string>
+    <string name="omnijaws_service_disabled">Dịch vụ bị vô hiệu hóa</string>
+    <string name="weather_widget">Thời tiết</string>
+    <string name="omnijaws_current_text">Bây giờ</string>
+    <string name="show_background_title">Bóng nền</string>
+    <string name="weather_config_title">Cài đặt dịch vụ</string>
+    <string name="with_forecast_title">Với dự báo 4 ngày và chi tiết</string>
+    <string name="omnijaws_city_unkown">Không xác định</string>
+
+</resources>

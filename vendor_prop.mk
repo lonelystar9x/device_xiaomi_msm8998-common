@@ -111,7 +111,7 @@ PRODUCT_PROPERTY_OVERRIDES += \
     persist.vendor.camera.set.afd=4 \
     vidc.enc.dcvs.extra-buff-count=2 \
     camera.shutter_sound.blacklist=com.android.camera \
-    vendor.camera.aux.packagelist=com.android.camera,org.lineageos.snap \
+    vendor.camera.aux.packagelist=com.google.android.GoogleCamera,com.google.android.GoogleCameraTele,com.android.camera \
     vendor.camera.hal1.packagelist=com.tencent.mm,com.eg.android.AlipayGphone,com.android.camera \
     persist.camera.privapp.list=com.android.camera,com.google.android.GoogleCamera,org.lineageos.snap
 
