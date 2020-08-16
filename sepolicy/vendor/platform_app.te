@@ -1,12 +1,2 @@
-allow platform_app boottime_prop:file { getattr open read };
-allow platform_app time_daemon:unix_stream_socket connectto;
-
-allow platform_app sysfs_kgsl:dir search;
-allow platform_app sysfs_battery_supply:dir search;
-allow platform_app sysfs_battery_supply:file { getattr open read };
-allow platform_app sysfs_kgsl:file { getattr open read };
-
-allow platform_app sysfs_leds:dir search;
-
 # Face Unlock
 get_prop(platform_app, camera_prop)
