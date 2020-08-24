@@ -44,6 +44,8 @@
     <string name="animation_settings_summary">Tùy chỉnh ảnh động hệ thống</string>
     <string name="lockscreen_ui_title">Màn hình khóa</string>
     <string name="lockscreen_ui_summary">Thay đổi giao diện của màn hình khóa</string>
+    <string name="ambient_decor_title">Tùy chọn Ambient</string>
+    <string name="ambient_decor_summary">Menu trang trí Ambient</string>
 
     <!-- General strings -->
     <string name="reset">Đặt lại</string>
@@ -733,7 +735,7 @@
     <string name="lockscreen_visualizer_enable_summary">Hiển thị thanh hiệu ứng trong khi phát nhạc</string>
 
     <!-- LS Pulse Visualizer -->
-    <string name="visualizer_ui_title">Hiệu ứng m.hinh khóa</string>
+    <string name="visualizer_ui_title">Hiệu ứng m.hình khóa</string>
     <string name="visualizer_ui_summary">Tùy chỉnh giao diện của hiệu ứng</string>
     <string name="lockscreen_lava_lamp_category">Cài đặt đèn dung nham</string>
     <string name="lockscreen_autocolor_title">Màu tự động</string>
@@ -937,9 +939,14 @@
     <string name="lockscreen_charging_animation_drop">Rơi xuống</string>
     <string name="lockscreen_charging_animation_explosion">Vụ nổ</string>
     <string name="lockscreen_charging_animation_water">Nước chảy</string>
+    <string name="lockscreen_charging_animation_split">Đang phân chia</string>
+    <string name="lockscreen_charging_animation_yellow">Hiệu ứng màu vàng</string>
+    <string name="lockscreen_charging_animation_covid">Covid19</string>
+    <string name="lockscreen_charging_animation_wash">Rửa tay</string>
+    <string name="lockscreen_charging_animation_wear">Mang mặt nạ</string>
     
     <!-- Ambient edge lighting -->
-    <string name="notification_screen_title">Màn hình</string>
+    <string name="notification_screen_title">Ánh sáng Ambient-AOD</string>
     <string name="pulse_ambient_light_title">Ánh sáng cạnh</string>
     <string name="pulse_ambient_light_summary">Sáng lên các cạnh bên của màn hình trên xung thông báo</string>
     <string name="pulse_ambient_light_color_title">Màu ánh sáng</string>
@@ -1072,8 +1079,7 @@
     <string name="lockscreen_date_selection_default">Mặc định</string>
 
     <!-- Q To X Clock -->
-    <string name="center_text_clock_title">Đồng hồ văn bản trung tâm</string>
-    <string name="center_text_clock_summary">Chuyển đổi Q-Clock sang X-Clock</string>
+    <string name="center_text_clock_title">Căn chỉnh đồng hồ m.hình khóa</string>
 
     <!-- QS Settings Button Icon -->
     <string name="qs_settings_button_title">Biểu tượng cài đặt</string>
@@ -1320,13 +1326,13 @@
     <string name="ambient_text_font_title">Kiểu chữ văn bản Ambient</string>
     <string name="ambient_text_string_title">Đặt văn bản Ambient</string>
     <string name="ambient_text_align_title">Căn chỉnh văn bản Ambient</string>
-    <string name="ambient_text_align_start_top">Phải và trên</string>
-    <string name="ambient_text_align_start_center">Phải và giữa</string>
-    <string name="ambient_text_align_start_bottom">Phải và dưới</string>
+    <string name="ambient_text_align_start_top">Trái và trên</string>
+    <string name="ambient_text_align_start_center">Trái và giữa</string>
+    <string name="ambient_text_align_start_bottom">Trái và dưới</string>
     <string name="ambient_text_align_center">Giữa</string>
-    <string name="ambient_text_align_end_top">Trái và trên</string>
-    <string name="ambient_text_align_end_center">Trái và giữa</string>
-    <string name="ambient_text_align_end_bottom">Trái và dưới</string>
+    <string name="ambient_text_align_end_top">Phải và trên</string>
+    <string name="ambient_text_align_end_center">Phải và giữa</string>
+    <string name="ambient_text_align_end_bottom">Phải và dưới</string>
     <string name="ambient_text_type_color_title">Màu loại văn bản Ambient</string>
     <string name="ambient_text_color_title">Màu văn bản Ambient</string>
     <string name="ambient_notification_light_color_mode_accent">Màu nhấn hệ thống</string>
@@ -1345,4 +1351,22 @@
     <string name="selinux_permissive_toast_title">Selinux được đặt thành permissive!</string>
     <string name="selinux_enforcing_toast_title">Selinux được đặt thành enforcing!</string>
     <string name="cannot_get_su">Không thực hiện được hành động do thiếu quyền truy cập root</string>
+    
+    <!-- MusicCard -->
+    <string name="volume_panel_musiccard_title">Thẻ âm nhạc</string>
+    <string name="volume_panel_musiccard_summary">Bật thẻ âm nhạc trong bảng âm lượng</string>
+
+    <!-- Lockscreen Item Alignments -->
+    <string name="lockscreen_date_alignment_title">Căn chỉnh ngày m.hình khóa</string>
+    <string name="lockscreen_ownerinfo_alignment_title">Căn chỉnh thông tin chủ sở hữu</string>
+    <string name="lock_item_left">Căn trái</string>
+    <string name="lock_item_center">Căn giữa</string>
+    <string name="lock_item_right">Căn phải</string>
+    <string name="lockscreen_item_padding_title">Lớp đệm các mục trên m.hình khóa</string>
+    <string name="lockscreen_weather_alignment_title">Căn chỉnh thời tiết LS</string>
+    <string name="lockscreen_weather_selection_title">Kiểu nền thời tiết</string>
+
+    <!-- Clipboard toast toggle -->
+    <string name="show_clipboard_toast">Hiển thị cảnh báo truy cập khay nhớ tạm</string>
+    <string name="show_clipboard_toast_summary">Hiển thị  Toast khi một ứng dụng cố gắng truy cập khay nhớ tạm</string>
 </resources>
