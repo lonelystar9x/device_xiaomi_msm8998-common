@@ -391,10 +391,12 @@
     <string name="connected_tws_device_saved_title">Lưu tai nghe</string>
 
     <!-- Home handle sizing -->
-    <string name="home_handle_sizer_title">Chiều dài được sử dụng cho cử chỉ thanh điều hướng</string>
+    <string name="home_handle_sizer_title">Chiều dài cho cử chỉ thanh điều hướng</string>
     <string name="home_handle_low_label">Ẩn</string>
     <string name="home_handle_high_label">Dài</string>
-
+    <string name="home_handle_height_sizer_title">Độ dày cử chỉ thanh điều hướng.</string>
+    <string name="home_handle_thick_label">Dày</string>
+    
     <!-- Qs Tile Icon Bright-Dark -->
     <string name="qs_icon_primary_title">Biểu tượng ô Qs Sáng|Tối</string>
     <string name="qs_icon_primary_summary">Đặt Biểu tượng Qs Sáng-Tối nếu bật màu gradient</string>
@@ -424,4 +426,10 @@
     <!-- GVM -->
     <string name="theme_customization_statusbar_height_title">Chiều cao thanh t.thái</string>
     <string name="theme_customization_ui_radius_title">Bán kính UI</string>
+    
+    <!-- Audio Panel Theme -->
+    <string name="audio_panel_view_theme_title">Tùy chọn bảng âm lượng</string>
+    <string name="audio_panel_view_theme_summary">Chọn bảng âm lượng bạn muốn</string>
+    <string name="audio_panel_theme_default">Mặc định Xtended</string>
+    <string name="audio_panel_theme_custom">Tùy chỉnh Xtended</string>
 </resources>
