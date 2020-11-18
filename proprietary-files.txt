@@ -242,6 +242,8 @@ vendor/lib/libsmwrapper.so
 # Media
 -vendor/lib/libgpustats.so
 -vendor/lib64/libgpustats.so
+lib/libmmrtpdecoder.so:system_ext/lib/libmmrtpdecoder.so
+lib/libmmrtpencoder.so:system_ext/lib/libmmrtpencoder.so
 vendor/lib/libOmxEvrcDec.so
 vendor/lib/libOmxVpp.so
 vendor/lib/libvpphvx.so
@@ -259,6 +261,32 @@ vendor/lib64/libmlipay@1.1.so
 
 # NFC firmware
 vendor/lib/libpn553_fw.so
+
+# Perf
+lib/vendor.qti.hardware.perf@1.0.so:vendor/lib/vendor.qti.hardware.perf@1.0.so
+lib64/vendor.qti.hardware.perf@1.0.so:vendor/lib64/vendor.qti.hardware.perf@1.0.so
+vendor/bin/hw/vendor.qti.hardware.perf@1.0-service
+vendor/etc/init/vendor.qti.hardware.perf@1.0-service.rc
+vendor/etc/perf/commonresourceconfigs.xml
+vendor/etc/perf/perf-profile0.conf
+vendor/etc/perf/perf-profile1.conf
+vendor/etc/perf/perf-profile2.conf
+vendor/etc/perf/perf-profile3.conf
+vendor/etc/perf/perf-profile4.conf
+vendor/etc/perf/perf-profile5.conf
+vendor/etc/perf/perf-profile6.conf
+vendor/etc/perf/perfboostsconfig.xml
+vendor/etc/perf/targetconfig.xml
+vendor/etc/perf/targetresourceconfigs.xml
+vendor/etc/powerhint.xml
+vendor/lib/libperfgluelayer.so
+vendor/lib/libqti-perfd-client.so
+vendor/lib/libqti-perfd.so
+vendor/lib/libqti-util.so
+vendor/lib64/libperfgluelayer.so
+vendor/lib64/libqti-perfd-client.so
+vendor/lib64/libqti-perfd.so
+vendor/lib64/libqti-util.so
 
 # Sensors
 vendor/bin/sensors.qti
@@ -290,4 +318,6 @@ vendor/lib64/libthermalclient.so
 vendor/lib64/libthermalioctl.so
 
 # Wi-Fi
+lib64/libqminvapi.so:vendor/lib64/libqminvapi.so
 vendor/bin/cnss-daemon
+vendor/bin/nv_mac

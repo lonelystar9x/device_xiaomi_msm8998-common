@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     Copyright (C) 2015 The CyanogenMod Project
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+          http://www.apache.org/licenses/LICENSE-2.0
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+    <string name="ambient_display_title">Màn hình Ambient</string>
+
+    <string name="ambient_display_notifications">Thông báo mới</string>
+    <string name="ambient_display_summary">Sáng màn hình khi nhận được thông báo mới</string>
+
+    <!-- Tilt sensor -->
+    <string name="tilt_sensor_title">Cảm biến nghiêng</string>
+    <string name="pick_up_title">Nhấc để kiểm tra điện thoại</string>
+    <string name="pick_up_summary">Xem thông báo khi điện thoại được nhấc lên</string>
+    <string name="wake_gesture_title">Đánh thức</string>
+    <string name="wake_gesture_summary">Nhấc điện thoại của bạn lên để đánh thức thiết bị thay vì thông báo liên tục</string>
+    <string name="smart_wake_title">Đánh thức thông minh</string>
+    <string name="smart_wake_summary">Chuyển động nhẹ để xem thông báo khi thiết bị được nhấc lên</string>
+    <string name="smart_wake_category_title">Cảm biến nghiêng mở rộng</string>
+
+    <!-- Proximity sensor -->
+    <string name="proximity_sensor_title">Cảm biến tiệm cận</string>
+    <string name="hand_wave_gesture_title">Vẫy tay</string>
+    <string name="hand_wave_gesture_summary">Xem thông báo khi vẫy tay qua cảm biến</string>
+    <string name="pocket_gesture_title">Túi</string>
+    <string name="pocket_gesture_summary">Xem thông báo khi lấy thiết bị ra khỏi túi</string>
+    <string name="proximity_screen_wake_title">Đánh thức màn hình bằng vẫy tay hoặc cử chỉ bỏ túi</string>
+    <string name="proximity_screen_wake_summary">Sử dụng vẫy tay hoặc cử chỉ bỏ túi để đánh thức thiết bị thay vì thông báo theo nhịp.</string>
+
+    <string name="aod_setting_title">Luôn bật</string>
+    <string name="aod_setting_summary">Hiển thị thời gian, biểu tượng thông báo và thông tin khác. Tăng
+        mức sử dụng pin.</string>
+
+    <string name="doze_brightness_title">Độ sáng Ambient</string>
+    <string name="doze_brightness_summary">Đặt độ sáng cho màn hình Ambient</string>
+    <string name="night_brightness_value">Ánh sáng đêm</string>
+    <string name="low_brightness_value">Ánh sáng yếu</string>
+    <string name="high_brightness_value">Ánh sáng trung bình</string>
+    <string name="sun_brightness_value">Ánh sáng ngoài trời</string>
+
+    <string name="reset_hidden_apps">Đặt lại</string>
+
+    <!-- Doze on charge -->
+    <string name="doze_on_charge_title">Luôn bật khi sạc</string>
+    <string name="doze_on_charge_summary">Luôn bật màn hình ambient khi sạc</string>
+
+    <!-- Doze on on DoubleTap -->
+    <string name="doze_double_tap_title">Nhấn đúp để kiểm tra</string>
+    <string name="doze_double_tap_summary">Xem thông báo khi nhấn đúp</string>
+
+    <string name="edit_hint">G.trị</string>
+    <string name="seek_value_edit_label">Đặt g.trị</string>
+    <string name="cancel">Hủy</string>
+
+    <string name="footer_info">Nếu màn hình ambient được bật, độ sáng sẽ được tính toán lại để theo dõi
+        thông số kỹ thuật phần cứng, vì vậy đừng coi các giá trị trên là giá trị tuyệt đối.\n\nNhấn và giữ
+        giá trị văn bản bên trái để đặt nó theo cách thủ công.</string>
+
+</resources>
