@@ -24,7 +24,7 @@ if [[ ! -d "${MY_DIR}" ]]; then MY_DIR="${PWD}"; fi
 
 LINEAGE_ROOT="${MY_DIR}"/../../..
 
-HELPER="${LINEAGE_ROOT}/vendor/aosp/build/tools/extract_utils.sh"
+HELPER="${LINEAGE_ROOT}/vendor/lineage/build/tools/extract_utils.sh"
 if [ ! -f "${HELPER}" ]; then
     echo "Unable to find helper script at ${HELPER}"
     exit 1
@@ -60,38 +60,60 @@ fi
 function blob_fixup() {
     case "${1}" in
     lib64/libwfdnative.so)
-        patchelf --remove-needed "android.hidl.base@1.0.so" "${2}"
+        "${PATCHELF}" --remove-needed "android.hidl.base@1.0.so" "${2}"
+        ;;
+    system_ext/etc/init/dpmd.rc)
+        sed -i 's|/system/product/bin/dpmd|/system_ext/bin/dpmd|g' "${2}"
+        ;;
+    system_ext/etc/permissions/audiosphere.xml)
+        sed -i 's|/system/framework/audiosphere.jar|/system_ext/framework/audiosphere.jar|g' "${2}"
+        ;;
+    system_ext/etc/permissions/com.qti.dpmframework.xml)
+        sed -i 's|/system/product/framework/com.qti.dpmframework.jar|/system_ext/framework/com.qti.dpmframework.jar|g' "${2}"
+        ;;
+    system_ext/etc/permissions/dpmapi.xml)
+        sed -i 's|/system/product/framework/dpmapi.jar|/system_ext/framework/dpmapi.jar|g' "${2}"
+        ;;
+    system_ext/etc/permissions/qcrilhook.xml)
+        sed -i 's|/product/framework/qcrilhook.jar|/system_ext/framework/qcrilhook.jar|g' "${2}"
+        ;;
+    system_ext/lib64/libdpmframework.so)
+        for LIBDPM_SHIM in $(grep -L "libshim_dpmframework.so" "${2}"); do
+            "${PATCHELF}" --add-needed "libshim_dpmframework.so" "$LIBDPM_SHIM"
+        done
         ;;
     vendor/etc/permissions/qti_libpermissions.xml)
         sed -i 's|name=\"android.hidl.manager-V1.0-java|name=\"android.hidl.manager@1.0-java|g' "${2}"
         ;;
     vendor/lib/hw/camera.msm8998.so)
-        patchelf --remove-needed "android.hidl.base@1.0.so" "${2}"
+        "${PATCHELF}" --remove-needed "android.hidl.base@1.0.so" "${2}"
+        "${PATCHELF}" --replace-needed "libminikin.so" "libminikin-v28.so" "${2}"
         ;;
     vendor/lib/libFaceGrade.so)
-        patchelf --remove-needed "libandroid.so" "${2}"
+        "${PATCHELF}" --remove-needed "libandroid.so" "${2}"
         ;;
     vendor/lib/libMiCameraHal.so)
-        patchelf --replace-needed "libicuuc.so" "libicuuc-v28.so" "${2}"
-        patchelf --replace-needed "libminikin.so" "libminikin-v28.so" "${2}"
+        "${PATCHELF}" --replace-needed "libicuuc.so" "libicuuc-v28.so" "${2}"
+        "${PATCHELF}" --replace-needed "libminikin.so" "libminikin-v28.so" "${2}"
         ;;
     vendor/lib/libarcsoft_beauty_shot.so)
-        patchelf --remove-needed "libandroid.so" "${2}"
+        "${PATCHELF}" --remove-needed "libandroid.so" "${2}"
         ;;
     vendor/lib/libicuuc-v28.so)
-        patchelf --set-soname "libicuuc-v28.so" "${2}"
+        "${PATCHELF}" --set-soname "libicuuc-v28.so" "${2}"
         ;;
     vendor/lib/libminikin-v28.so)
-        patchelf --set-soname "libminikin-v28.so" "${2}"
+        "${PATCHELF}" --set-soname "libminikin-v28.so" "${2}"
+        "${PATCHELF}" --replace-needed "libicuuc.so" "libicuuc-v28.so" "${2}"
         ;;
     vendor/lib/libmmcamera2_sensor_modules.so)
         sed -i 's|/data/misc/camera/camera_lsc_caldata.txt|/data/vendor/camera/camera_lsc_calib.txt|g' "${2}"
         ;;
     vendor/lib/libmmcamera2_stats_modules.so)
-        patchelf --remove-needed "libandroid.so" "${2}"
+        "${PATCHELF}" --remove-needed "libandroid.so" "${2}"
         ;;
     vendor/lib/libmpbase.so)
-        patchelf --remove-needed "libandroid.so" "${2}"
+        "${PATCHELF}" --remove-needed "libandroid.so" "${2}"
         ;;
     esac
 }
